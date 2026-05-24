@@ -1,0 +1,49 @@
+{
+  "name": "@scoova/geofences-react-native",
+  "version": "1.0.0",
+  "description": "React Native wrapper around @scoova/geofences — re-exports the standalone client plus a useGeofences() hook + <ScoovaGeofencesProvider/>. No native modules.",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "react-native": "src/index.ts",
+  "source": "src/index.ts",
+  "files": [
+    "src/",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "license": "Apache-2.0",
+  "author": "Scoova <info@scoo-va.info>",
+  "homepage": "https://github.com/Scoova/scoova-geofences-react-native",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scoova/scoova-geofences-react-native.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Scoova/scoova-geofences-react-native/issues"
+  },
+  "keywords": [
+    "scoova",
+    "react-native",
+    "geofence",
+    "geofences",
+    "polygon",
+    "point-in-polygon"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=17",
+    "react-native": ">=0.70",
+    "@scoova/geofences": "^1.0.0"
+  },
+  "dependencies": {
+    "@scoova/geofences": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "react": "18.2.0",
+    "typescript": "^5.4.0"
+  }
+}
