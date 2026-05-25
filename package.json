@@ -1,7 +1,7 @@
 {
   "name": "@scoova/geofences-react-native",
   "version": "1.0.0",
-  "description": "React Native wrapper around @scoova/geofences — re-exports the standalone client plus a useGeofences() hook + <ScoovaGeofencesProvider/>. No native modules.",
+  "description": "React Native wrapper around @scoova/geofences \u2014 re-exports the standalone client plus a useGeofences() hook + <ScoovaGeofencesProvider/>. No native modules.",
   "main": "src/index.ts",
   "types": "src/index.ts",
   "react-native": "src/index.ts",
@@ -45,5 +45,8 @@
     "@types/react": "^18.2.0",
     "react": "18.2.0",
     "typescript": "^5.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
